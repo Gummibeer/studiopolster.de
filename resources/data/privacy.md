@@ -8,7 +8,7 @@ Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Date
 
 ## Ansprechpartner
 
-Ansprechpartner und Verantwortlicher für die Verarbeitung deiner personenbezogenen Daten bei Besuch dieser Website im Sinne der EU-Datenschutzgrundverordnung (DSGVO) ist Dr. med. Janine Pantzek ([Impressum](/impressum)).
+Ansprechpartner und Verantwortlicher für die Verarbeitung deiner personenbezogenen Daten bei Besuch dieser Website im Sinne der EU-Datenschutzgrundverordnung (DSGVO) ist Hans-Juergen Polster ([Impressum](/impressum)).
 
 ## Daten&shy;verarbeitung auf unserer Website
 
@@ -72,14 +72,14 @@ Möchtest du von deinem Widerrufs- oder Widerspruchsrecht Gebrauch machen, genü
 
 Wir unterhalten aktuelle technische Maßnahmen zur Gewährleistung der Datensicherheit, insbesondere zum Schutz deiner personenbezogenen Daten vor Gefahren bei Datenübertragungen sowie vor Kenntniserlangung durch Dritte. Diese werden dem aktuellen Stand der Technik entsprechend jeweils angepasst. Zur Sicherung der von dir auf unserer Website angegebenen persönlichen Daten verwenden wir den Transport Layer Security (TLS), der die von dir eingegebenen Informationen verschlüsselt.
 
-## Verwendung von Google Maps
+## Web Fonts von Adobe Typekit
 
-Auf unserer Website wird Google Maps (API) der Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA (“Google”) eingesetzt. Google Maps ist ein Webdienst zur Darstellung von interaktiven (Land-)Karten, um geographische Informationen visuell darzustellen. Bereits beim Aufrufen derjenigen Unterseiten, in die die Karte von Google Maps eingebunden ist, werden Informationen über die Nutzung der Webseite (wie z. B. die IP-Adresse des Nutzers) an Server von Google in den USA übertragen und dort gespeichert.  
-Google wird diese Informationen ggf. weiter an Dritte übertragen, soweit dies gesetzlich vorgeschrieben ist oder Dritte diese Daten im Auftrag von Google verarbeiten. Google wird die IP-Adresse des Nutzers nicht mit anderen Daten von Google in Verbindung bringen. Dennoch wäre es technisch möglich, dass Google die durch die Nutzung von Google Maps erhaltenen Nutzerdaten zur Identifizierung der Nutzer verwendet, daraus Persönlichkeitsprofile von Nutzern erstellt oder für fremde Zwecke verarbeitet und verwendet, worauf wir jeweils keinen Einfluss haben.  
-Die Nutzungsbedingungen von Google können unter [policies.google.com/terms](https://policies.google.com/terms) eingesehen werden.  
-Die zusätzlichen Nutzungsbedingungen für Google Maps sind einzusehen unter [google.com/intl/de/help/terms_maps.html](https://www.google.com/intl/de/help/terms_maps.html).  
-Ausführliche Informationen zum Datenschutz im Zusammenhang mit der Verwendung von Google Maps sind auf der Internetseite von Google ("Google Privacy Policy") zu finden: [policies.google.com/privacy](https://policies.google.com/privacy).  
-Wenn der Nutzer mit der künftigen Übermittlung seiner Daten an Google im Rahmen der Nutzung von Google Maps nicht einverstanden ist, besteht die Möglichkeit, den Webdienst von Google Maps vollständig zu deaktivieren, indem der Nutzer die Anwendung JavaScript in seinem Browser ausschaltet. Google Maps und damit auch die Kartenanzeige auf der Webseite kann dann nicht genutzt werden.
+Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten sogenannte Web Fonts, die von Adobe Typekit bereitgestellt werden. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Web Fonts in ihren Browsercache, um Texte und Schriftarten korrekt anzuzeigen.
+
+Zu diesem Zweck muss der von Ihnen verwendete Browser Verbindung zu den Servern von Adobe Typekit aufnehmen. Hierdurch erlangt Adobe Typekit Kenntnis darüber, dass über Ihre IP-Adresse unsere Website aufgerufen wurde. Die Nutzung von Adobe Typekit Web Fonts erfolgt im Interesse einer einheitlichen und ansprechenden Darstellung unserer Online-Angebote. Dies stellt ein berechtigtes Interesse im Sinne von Art. 6 Abs. 1 lit. f DSGVO dar.
+
+Wenn Ihr Browser Web Fonts nicht unterstützt, wird eine Standardschrift von Ihrem Computer genutzt.
+Weitere Informationen zu Adobe Typekit Web Fonts finden Sie unter [https://typekit.com](https://typekit.com) und in der Datenschutzerklärung von Adobe Typekit: [https://www.adobe.com/de/privacy/policies/typekit.html](https://www.adobe.com/de/privacy/policies/typekit.html)
 
 ## Änderungen der Datenschutz&shy;erklärung
 
