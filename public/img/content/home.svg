@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     viewBox="0 0 453.1396484 451.6956177"
-     style="enable-background:new 0 0 453.1396484 451.6956177;background-color: #000;" xml:space="preserve">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 453.1396484 451.6956177" style="enable-background:new 0 0 453.1396484 451.6956177;background-color: #000;" xml:space="preserve">
 <style type="text/css">
 	.st1{display:none;}
 	.st2{fill:#FFFFFF;}
@@ -14,7 +12,7 @@
             <set
                     attributeName="display"
                     to="inline"
-                    begin="all-rot-4.end + 0s"
+                    begin="rotate4.end + 0s"
                     fill="freeze"
             />
             <path class="st2" d="M141.1711884,53.2656212h0.9116211l4.8935547,7.315918h0.0239258v-7.315918h0.8037109v8.875h-0.7558594l-5.0493164-7.5439453h-0.0239258v7.5439453h-0.8037109V53.2656212z"/>
@@ -28,7 +26,7 @@
             <set
                     attributeName="display"
                     to="inline"
-                    begin="all-rot-4.end + 0s"
+                    begin="rotate4.end + 0s"
                     fill="freeze"
             />
             <path class="st2" d="M274.2707825,53.2656212h0.8515625v8.0952148h4.3417969v0.7797852h-5.1933594V53.2656212z"/>
@@ -116,7 +114,7 @@
             <set
                     attributeName="display"
                     to="inline"
-                    begin="all-rot-4.end + 0s"
+                    begin="rotate4.end + 0s"
                     fill="freeze"
             />
             <path class="st2" d="M140.1091766,380.7021484h5.3012695v0.7919922h-4.449707v3.0097656h3.3222656v0.7675781h-3.3222656v3.5263672
@@ -200,7 +198,7 @@
             <set
                     attributeName="display"
                     to="inline"
-                    begin="all-rot-4.end + 0s"
+                    begin="rotate4.end + 0s"
                     fill="freeze"
             />
             <path class="st2" d="M261.4075012,385.1035156c0-2.6865234,1.4755859-4.5693359,3.6943359-4.5693359
@@ -298,7 +296,7 @@
             <set
                     attributeName="display"
                     to="inline"
-                    begin="all-rot-4.end + 0s"
+                    begin="rotate4.end + 0s"
                     fill="freeze"
             />
             <path class="st2" d="M387.51297,147.1430664h1.1035156l2.9746094,7.7714844h0.0234375l2.9501953-7.7714844h1.1279297v8.875
@@ -390,7 +388,7 @@
             <set
                     attributeName="display"
                     to="inline"
-                    begin="all-rot-4.end + 0s"
+                    begin="rotate4.end + 0s"
                     fill="freeze"
             />
             <path class="st2" d="M43.4822235,147.1069336h0.9233398l3.1420898,8.9111328h-0.887207l-0.9477539-2.734375H42.115036
@@ -447,7 +445,7 @@
             <set
                     attributeName="display"
                     to="inline"
-                    begin="all-rot-4.end + 0s"
+                    begin="rotate4.end + 0s"
                     fill="freeze"
             />
             <path class="st2" d="M389.6672668,283.9658203h2.2431641c2.8896484,0,4.4130859,1.4990234,4.4130859,4.4257812
@@ -522,7 +520,7 @@
             <set
                     attributeName="display"
                     to="inline"
-                    begin="all-rot-4.end + 0s"
+                    begin="rotate4.end + 0s"
                     fill="freeze"
             />
             <path class="st2" d="M37.021286,283.9658203h0.8637695l1.3793945,5.3847656
@@ -586,7 +584,7 @@
     </g>
     <g id="diamond">
         <animateTransform
-                id="all-rot-1"
+                id="rotate1"
                 attributeName="transform"
                 type="rotate"
                 from="0 226.5698242 225.84780885"
@@ -596,32 +594,32 @@
                 fill="freeze"
         />
         <animateTransform
-                id="all-rot-2"
+                id="rotate2"
                 attributeName="transform"
                 type="rotate"
                 from="45 226.5698242 225.84780885"
                 to="90 226.5698242 225.84780885"
-                begin="all-rot-1.end + 0.1s"
+                begin="rotate1.end + 0.1s"
                 dur="0.25s"
                 fill="freeze"
         />
         <animateTransform
-                id="all-rot-3"
+                id="rotate3"
                 attributeName="transform"
                 type="rotate"
                 from="90 226.5698242 225.84780885"
                 to="-45 226.5698242 225.84780885"
-                begin="all-rot-2.end + 0.1s"
+                begin="rotate2.end + 0.1s"
                 dur="0.75s"
                 fill="freeze"
         />
         <animateTransform
-                id="all-rot-4"
+                id="rotate4"
                 attributeName="transform"
                 type="rotate"
                 from="-45 226.5698242 225.84780885"
                 to="0 226.5698242 225.84780885"
-                begin="all-rot-3.end + 0.1s"
+                begin="rotate3.end + 0.1s"
                 dur="0.25s"
                 fill="freeze"
         />
