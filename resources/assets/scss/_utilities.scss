@@ -1,0 +1,6 @@
+@each $prop, $abbrev in (width: w, height: h) {
+  @each $size, $length in $sizes {
+    .min-#{$abbrev}-#{$size} { min-#{$prop}: $length !important; }
+    .max-#{$abbrev}-#{$size} { max-#{$prop}: $length !important; }
+  }
+}

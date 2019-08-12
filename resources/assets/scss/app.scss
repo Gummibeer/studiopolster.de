@@ -1,0 +1,23 @@
+@import "variables";
+
+@import "font-awesome";
+@import "bootstrap";
+
+@import "utilities";
+
+@import "navbar";
+
+@import "header";
+@import "content";
+@import "footer";
+
+@import "pages";
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#wrapper {
+  position: relative;
+}

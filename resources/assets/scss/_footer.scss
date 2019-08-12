@@ -1,0 +1,21 @@
+#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: $black;
+
+  ul.list-inline {
+    li {
+      a {
+        color: $light;
+        font-weight: 700;
+        text-transform: uppercase;
+
+        @include hover-focus {
+          color: $primary;
+        }
+      }
+    }
+  }
+}

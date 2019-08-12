@@ -1,0 +1,57 @@
+[
+  {
+    "type": "works",
+    "data": {
+      "works": [
+        {
+          "image": "img/content/asw.jpg",
+          "headline": "absatzwirtschaft",
+          "description": "Logo-Relaunch, Zeitschriften-Relaunch, Website-Relaunch: absatzwirtschaft.de, Art Direction, Infografiken, Illustrationen, Sonderhefte",
+          "pdf": "downloads/sp_work_asw.pdf"
+        },
+        {
+          "image": "img/content/jp.jpg",
+          "headline": "Dr. med Janine Pantzek – Medical Institute für Schönheit und Healthcare",
+          "description": "Logoentwicklung, Praxisausstattung, Webauftritt\nLeadagentur: chocola, Creative Direction: Carola Born",
+          "pdf": "downloads/sp_work_jp.pdf"
+        },
+        {
+          "image": "img/content/co.jpg",
+          "headline": "Copenhagen – Footwear",
+          "description": "Logoentwicklung, digitale Markenführung, Print- und Web-Anzeigen, Folder\nLeadagentur: Even on Sunday, CCO: Carola Born",
+          "pdf": "downloads/sp_work_co.pdf"
+        },
+        {
+          "image": "img/content/lb.jpg",
+          "headline": "Lühn Bau",
+          "description": "Logoentwicklung, Geschäftsausstattung, Website: luehnbau.de, digitale Markenführung, Imageprospekt, Projektblätter",
+          "pdf": "downloads/sp_work_lb.pdf"
+        },
+        {
+          "image": "img/content/lp.jpg",
+          "headline": "Lühn Projekt",
+          "description": "Naming, Logoentwicklung, Geschäftsausstattung, Website: luehnprojekt.de, digitale Markenführung, Printanzeigen, Imageprospekt, Messeauftritt",
+          "pdf": "downloads/sp_work_lp.pdf"
+        },
+        {
+          "image": "img/content/spl.jpg",
+          "headline": "Synergy Park Lühn",
+          "description": "Naming, Logoentwicklung, Website: luehnprojekt.de, digitale Markenführung, Printanzeigen\nArchitekturbüro: L.A.V.A., Architekt: Christian Tschersich, PR-Agentur: share Projects, Susanne Stock",
+          "pdf": "downloads/sp_work_spl.pdf"
+        },
+        {
+          "image": "img/content/na.jpg",
+          "headline": "Naber",
+          "description": "Produktbereich Küchenlüftung, Website: compair-flow.com, Videoproduktion, Fotoshooting, Fachanzeigen, Großflächenplakate, Messebegleitung\nFoto- und Videoproduktion: chocola, CD Carola Born",
+          "pdf": "downloads/sp_work_na.pdf"
+        },
+        {
+          "image": "img/content/bm.jpg",
+          "headline": "Berliner Morgenpost",
+          "description": "Logoentwicklung, Zeitungs-Relaunch, Lineextension, Art Direction, Illustrationen, Infografiken, Werbemittel",
+          "pdf": "downloads/sp_work_bm.pdf"
+        }
+      ]
+    }
+  }
+]

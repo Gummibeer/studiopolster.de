@@ -1,0 +1,100 @@
+#content {
+  section {
+    .text-wrapper {
+      padding: map-get($spacers, 5) map-get($spacers, 4);
+
+      *:last-child {
+        margin: 0;
+      }
+    }
+    .text-wrapper-x {
+      padding-left: map-get($spacers, 4);
+      padding-right: map-get($spacers, 4);
+    }
+    .text-wrapper-y {
+      padding-top: map-get($spacers, 5);
+      padding-bottom: map-get($spacers, 5);
+    }
+
+    [class*='img-bg'] {
+      background-size: cover;
+      background-color: map-get($primary-palette, 300);
+    }
+    .img-bg-top {
+      background-position: top;
+    }
+    .img-bg-center {
+      background-position: center;
+    }
+    .img-bg-bottom {
+      background-position: bottom;
+    }
+
+    dl {
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    .infobox {
+      padding: 1.5rem 0.75rem;
+      margin-bottom: 1.5rem;
+      background: $bg-light;
+
+      [class*=col-] {
+        padding: 0 0.75rem;
+      }
+    }
+
+    blockquote {
+      display: block;
+      padding-left: 1rem;
+      border-left: 3px solid $light;
+
+      footer:before {
+        content: '\2014';
+        margin-right: 0.5rem;
+      }
+    }
+
+    ul {
+      list-style-type: square;
+      list-style-position: inside;
+      padding: 0;
+      padding-inline-start: 0;
+    }
+
+    .works {
+      .work-item {
+        .overlay {
+          background: rgba($primary, 0.9);
+          padding: 0.5rem;
+          color: $white;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          line-height: 1.5rem;
+          min-height: 6 * 1.5rem + 1rem + 1rem;
+
+          .headline {
+            margin-bottom: 0.5rem;
+            display: block;
+          }
+
+          .description {
+            margin-bottom: 0.5rem;
+          }
+
+          a.download {
+            color: $white;
+            display: block;
+
+            @include hover-focus {
+              color: $black;
+            }
+          }
+        }
+      }
+    }
+  }
+}
