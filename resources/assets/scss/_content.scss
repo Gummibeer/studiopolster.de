@@ -66,7 +66,7 @@
     .works {
       .work-item {
         .overlay {
-          background: rgba($primary, 0.9);
+          background: rgba(#3C3C3C, 0.8);
           padding: 0.5rem;
           color: $white;
           position: absolute;
@@ -79,6 +79,8 @@
           .headline {
             margin-bottom: 0.5rem;
             display: block;
+            color: $primary;
+            font-size: 1.25rem;
           }
 
           .description {
@@ -90,7 +92,7 @@
             display: block;
 
             @include hover-focus {
-              color: $black;
+              color: $primary;
             }
           }
         }

@@ -18,6 +18,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html,
+body {
+  letter-spacing: -0.15;
+}
+
 #wrapper {
   position: relative;
 }
