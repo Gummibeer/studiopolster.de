@@ -1,5 +1,10 @@
 #content {
   section {
+    &.bg-white {
+      background: $white;
+      color: $light;
+    }
+
     .text-wrapper {
       padding: map-get($spacers, 5) map-get($spacers, 4);
 

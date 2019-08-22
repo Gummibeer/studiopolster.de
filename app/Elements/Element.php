@@ -15,6 +15,10 @@ abstract class Element extends CurlyspoonElement
         $resolver->setDefault('section_class', '');
         $resolver->addAllowedTypes('section_class', 'string');
 
+        $resolver->setDefined('section_id');
+        $resolver->setDefault('section_id', '');
+        $resolver->addAllowedTypes('section_id', 'string');
+
         return $resolver;
     }
 }

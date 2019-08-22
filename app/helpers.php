@@ -50,16 +50,6 @@ if(!function_exists('load_data_json')) {
 if(!function_exists('pages')) {
     function pages() {
         return [
-            'ueber-uns' => [
-                'data' => 'about_us',
-                'title' => 'Über uns',
-            ],
-            'arbeiten' => [
-                'data' => 'work',
-            ],
-            'kontakt' => [
-                'data' => 'contact',
-            ],
             'impressum' => [
                 'data' => 'imprint',
             ],

@@ -1,7 +1,16 @@
 [
   {
+    "type": "markdown",
+    "data": {
+      "markdown": "file:about_us.md",
+      "section_id": "about-us",
+      "section_class": "bg-white"
+    }
+  },
+  {
     "type": "works",
     "data": {
+      "section_id": "work",
       "works": [
         {
           "image": "img/content/asw.jpg",
@@ -52,6 +61,14 @@
           "pdf": "downloads/sp_work_bm.pdf"
         }
       ]
+    }
+  },
+  {
+    "type": "markdown",
+    "data": {
+      "markdown": "file:contact.md",
+      "section_id": "contact",
+      "section_class": "bg-white"
     }
   }
 ]

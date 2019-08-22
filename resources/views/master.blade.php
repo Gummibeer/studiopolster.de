@@ -14,7 +14,7 @@
 <div id="wrapper">
     @include('partials.header')
 
-    <article id="content" class="container px-4">
+    <article id="content">
         @yield('content')
     </article>
 
@@ -25,6 +25,7 @@
 <script src="{{ versioned_asset('js/bootstrap.min.js') }}"></script>
 <script src="{{ versioned_asset('js/lazysizes.min.js') }}"></script>
 <script src="{{ versioned_asset('js/ls.unveilhooks.min.js') }}"></script>
+<script src="{{ versioned_asset('js/jquery.smooth-scroll.min.js') }}"></script>
 <script src="{{ versioned_asset('js/app.js') }}"></script>
 
 </body>

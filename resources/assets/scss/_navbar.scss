@@ -34,18 +34,6 @@
 
     .navbar-nav {
       .nav-item {
-        &.active {
-          .nav-link {
-            color: $primary;
-            background: $black;
-
-            @include hover-focus {
-              color: $primary;
-              background: $black;
-            }
-          }
-        }
-
         .nav-link {
           color: $light;
           background: $black;
@@ -53,6 +41,11 @@
           text-transform: uppercase;
 
           @include hover-focus {
+            color: $primary;
+            background: $black;
+          }
+
+          &.active {
             color: $primary;
             background: $black;
           }

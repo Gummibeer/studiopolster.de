@@ -1,6 +1,6 @@
 <header id="header">
     <div class="container px-4">
-        <nav class="navbar navbar-expand-md navbar-black">
+        <nav class="navbar navbar-expand-md navbar-black" id="main-menu">
             <a class="navbar-brand" href="{{ url('/') }}">
                 <h1>Studio Polster</h1>
             </a>
@@ -10,11 +10,21 @@
 
             <div class="collapse navbar-collapse" id="navbar-main-menu">
                 <ul class="navbar-nav ml-auto">
-                    @foreach(menu() as $entry)
-                        <li class="nav-item @if($entry['active']) active @endif">
-                            <a class="nav-link" href="{{ url($entry['link']) }}">{{ $entry['text'] }}</a>
+                    @if(request_is('/'))
+                        <li class="nav-item">
+                            <a class="nav-link smooth" href="#about-us">Über uns</a>
                         </li>
-                    @endforeach
+                        <li class="nav-item">
+                            <a class="nav-link smooth" href="#work">Arbeiten</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth" href="#contact">Kontakt</a>
+                        </li>
+                    @else
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/') }}">Startseite</a>
+                        </li>
+                    @endif
                 </ul>
             </div>
         </nav>

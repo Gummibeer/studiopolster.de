@@ -25,4 +25,10 @@ body {
 
 #wrapper {
   position: relative;
+  min-height: 100vh;
+
+  h1 {
+    color: $primary;
+    text-transform: uppercase;
+  }
 }

@@ -1,9 +1,12 @@
 <?php
 
+/** @var \Laravel\Lumen\Routing\Router $router */
+
 $router->get('/', function () {
     $data = [
         'pageName' => 'home',
     ];
+    $data['content'] = load_data_json('home');
 
     return view('home', $data);
 });
