@@ -8,4 +8,4 @@ Oberförsterkoppel 10
 Telefon: 04104 9659733  
 Mobil: 0171 7676861
 
-E-Mail: [mail@studiopolster.de](mailto:mail@studiopolster.de)
+E-Mail: [mail@hansjuergenpolster.de](mailto:mail@hansjuergenpolster.de)
