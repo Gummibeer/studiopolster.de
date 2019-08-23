@@ -6,6 +6,8 @@
 
     <title>@if(app('request')->path() != '/') @if(isset($title)) {{ $title }} @else {{ title_case(str_replace('/', ' ', app('request')->path())) }} @endif | @endif Studio Polster</title>
 
+    <link rel="shortcut icon" type="image/x-icon" href="{{ versioned_asset('img/favicon.ico') }}">
+
     <link rel="stylesheet" href="https://use.typekit.net/sdo1rnk.css">
     <link rel="stylesheet" href="{{ versioned_asset('css/app.min.css') }}">
 </head>
