@@ -1,4 +1,4 @@
-#home {
+#body-home {
   #wrapper {
     #content {
       > img {
@@ -7,12 +7,16 @@
         height: 100vh;
         max-height: 100vh;
       }
+
+      h2 {
+        color: $primary;
+        text-transform: uppercase;
+      }
     }
   }
 }
 
-#imprint,
-#privacy {
+body:not(#body-home) {
   #wrapper {
     background: $white;
     color: #333333;

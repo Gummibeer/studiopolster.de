@@ -1,6 +1,5 @@
 @import "variables";
 
-@import "font-awesome";
 @import "bootstrap";
 
 @import "utilities";
@@ -31,4 +30,14 @@ body {
     color: $primary;
     text-transform: uppercase;
   }
+}
+
+.icon-pdf {
+  height: 1em;
+  width: 1em;
+  display: inline-block;
+  background-image: url('~@fortawesome/fontawesome-free/svgs/regular/file-pdf.svg');
+  -svg-mixer-fill: #ffffff path;
+  background-repeat: no-repeat;
+  background-position: center left;
 }

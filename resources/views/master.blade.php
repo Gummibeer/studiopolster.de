@@ -1,34 +1,30 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>@if(app('request')->path() != '/') @if(isset($title)) {{ $title }} @else {{ title_case(str_replace('/', ' ', app('request')->path())) }} @endif | @endif Studio Polster</title>
-
-    <link rel="shortcut icon" type="image/x-icon" href="{{ versioned_asset('img/favicon.ico') }}">
+    <title>@yield('title', config('app.name'))</title>
 
     <link rel="stylesheet" href="https://use.typekit.net/sdo1rnk.css">
-    <link rel="stylesheet" href="{{ versioned_asset('css/app.min.css') }}">
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
+
+    <link rel="sitemap" type="application/xml" href="{{ url('sitemap.xml') }}" title="Sitemap" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="{{ mix('favicon.ico') }}" />
 </head>
-<body id="{{ \Illuminate\Support\Str::slug($pageName, '-') }}">
+<body id="body-{{ $slug }}">
 
 <div id="wrapper">
     @include('partials.header')
 
-    <article id="content">
+    <div id="content">
         @yield('content')
-    </article>
+    </div>
 
     @include('partials.footer')
 </div>
 
-<script src="{{ versioned_asset('js/jquery.min.js') }}"></script>
-<script src="{{ versioned_asset('js/bootstrap.min.js') }}"></script>
-<script src="{{ versioned_asset('js/lazysizes.min.js') }}"></script>
-<script src="{{ versioned_asset('js/ls.unveilhooks.min.js') }}"></script>
-<script src="{{ versioned_asset('js/jquery.smooth-scroll.min.js') }}"></script>
-<script src="{{ versioned_asset('js/app.js') }}"></script>
-
+<script async defer src="{{ mix('js/app.js') }}" type="application/javascript"></script>
 </body>
 </html>

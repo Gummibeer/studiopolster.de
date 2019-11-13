@@ -6,7 +6,7 @@
     }
 
     .text-wrapper {
-      padding: map-get($spacers, 5) map-get($spacers, 4);
+      padding: map-get($spacers, 5) 0;
 
       *:last-child {
         margin: 0;

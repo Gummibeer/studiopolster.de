@@ -2,7 +2,7 @@
     <div class="container px-4">
         <nav class="navbar navbar-expand-md navbar-black" id="main-menu">
             <a class="navbar-brand" href="{{ url('/') }}">
-                <h1>Studio Polster</h1>
+                <h1>{{ config('app.name') }}</h1>
             </a>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-main-menu">
                 <span class="navbar-toggler-icon"></span>
@@ -10,7 +10,7 @@
 
             <div class="collapse navbar-collapse" id="navbar-main-menu">
                 <ul class="navbar-nav ml-auto">
-                    @if(request_is('/'))
+                    @if(request()->is('/'))
                         <li class="nav-item">
                             <a class="nav-link smooth" href="#about-us">Über uns</a>
                         </li>
