@@ -25,6 +25,8 @@ jobs:
         run: php artisan key:generate
       - name: Export page
         run: php artisan export --env=prod --skip-assets
+      - name: CNAME
+        run: echo 'studiopolster.de' > ./dist/CNAME
       - name: GH Pages Deploy
         uses: maxheld83/ghpages@v0.2.1
         env:
