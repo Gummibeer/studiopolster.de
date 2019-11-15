@@ -17,7 +17,7 @@
                 @foreach($works as $work)
                     <div class="col-12 col-md-6 work-item">
                         <div class="embed-responsive embed-responsive-1by1">
-                            <div class="embed-responsive-item lazyload img-bg-center" data-bg="{{ mix($work['image']) }}">
+                            <div class="embed-responsive-item lazyload img-bg-center" data-bg="{{ asset(mix($work['image'])) }}">
                                 <div class="overlay">
                                     <strong class="headline">{{ $work['headline'] }}</strong>
                                     <p class="description">{!! nl2br($work['description']) !!}</p>
