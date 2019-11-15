@@ -31,6 +31,6 @@
 
 [[redirects]]
   from = "https://studiopolster.netlify.com/*"
-  to = "https://studiopolster.info/:splat"
+  to = "https://studiopolster.de/:splat"
   status = 301
   force = true
