@@ -1,0 +1,36 @@
+[build]
+  publish = "dist"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer-when-downgrade"
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, s-max-age=31536000"
+
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, s-max-age=31536000"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, s-max-age=31536000"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, s-max-age=31536000"
+
+[[redirects]]
+  from = "https://studiopolster.netlify.com/*"
+  to = "https://studiopolster.info/:splat"
+  status = 301
+  force = true
