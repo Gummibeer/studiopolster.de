@@ -24,12 +24,11 @@ jobs:
       - name: Generate key
         run: php artisan key:generate
       - name: Export page
-        run: php artisan export --env=prod --skip-assets
-      - name: CNAME
-        run: echo 'studiopolster.de' > ./dist/CNAME
-      - name: GH Pages Deploy
-        uses: maxheld83/ghpages@v0.2.1
+        run: php artisan export --env=prod --skip-assets --skip-deploy
+      - name: Netlify deploy
+        uses: netlify/actions/cli@master
+        with:
+          args: deploy --prod
         env:
-          BUILD_DIR: "dist/"
-          GH_PAT: ${{ secrets.GH_PAT }}
-
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
