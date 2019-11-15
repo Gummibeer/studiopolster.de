@@ -10,7 +10,7 @@
     "license": "proprietary",
     "require": {
         "php": "^7.2",
-        "astrotomic/stancy": "^0.5.1",
+        "astrotomic/stancy": "^0.6.0",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^6.2"
     },
