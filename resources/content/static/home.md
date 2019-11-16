@@ -7,8 +7,7 @@ _sheets:
 
 ## Über uns
 
-
-Wir sind ein kleines leistungsstarkes Designstudio in Aumühle, Hamburg.  Wir bieten: Grafikdesign, Corporate Design, Editorial Design, Webdesign, Illustration, Infografik, Fotografie, Naming, Logo-Entwicklung, Kommunikation im Raum und digitale Markenentwicklung. Je nach Aufgabenstellung greifen wir auf ein umfangreiches Netzwerk an Spezialisten, Marktforscher, Texter und  Journalisten, Illustratoren und Infografiker, Fotografen, Filmproduzenten, Special Effects Experten sowie Webdesigner und Programmierer zu. Für den Kunden bedeutet das einfach, dass er keinen grossen Apparat bezahlt, sondern nur das, was er auch tatsächlich benötigt. 
+Wir sind ein kleines leistungsstarkes Designstudio in Aumühle, Hamburg.  Wir bieten: Grafikdesign, Corporate Design, Editorial Design, Webdesign, Illustration, Infografik, Fotografie, Naming, Logo-Entwicklung, Kommunikation im Raum und digitale Markenentwicklung. Je nach Aufgabenstellung greifen wir auf ein umfangreiches Netzwerk an Spezialisten, Marktforscher, Texter und  Journalisten, Illustratoren und Infografiker, Fotografen, Filmproduzenten, Special Effects Experten sowie Webdesigner und Programmierer zu. Für den Kunden bedeutet das einfach, dass er keinen großen Apparat bezahlt, sondern nur das, was er auch tatsächlich benötigt. 
 
 Kennenlernen – Analyse – Budgetplanung – Strategie – Beratung – Konzeption – Design
 
@@ -18,4 +17,4 @@ Ihre Marke lebt nicht nur in der realen Welt, sondern auch in der digitalen. Nut
 
 Im Bereich Editorial Design blicken wir auf jahrzehntelange Erfahrung im Entwickeln, Weiterentwickeln und Produzieren von Zeitschriften und Zeitungen in unterschiedlichen Erscheinungsweisen und Genres zurück. Egal ob Buch-, Zeitungs- oder Zeitschriften-Design. Von der Neuentwicklung bis hin zu modularen Relaunches oder kompletten Produktionseinführungen und -begleitungen ist alles möglich.
 
-Die größte Auszeichnung ist für uns immer die Zufriedenheit unserer Kunden. Darüberhinaus können wir aber auch auf weit über 150 nationale und internationale Auszeichnungen zurückblicken; darunter ADC Deutschland, ADC Europe, Society of Newspaper Design, European Newspaper Award, German Design Award und Lead Awards. Kein Grund sich darauf auszuruhen, sondern Ansporn für neue Herausforderungen.
+Die größte Auszeichnung ist für uns immer die Zufriedenheit unserer Kunden. Darüber hinaus können wir aber auch auf weit über 150 nationale und internationale Auszeichnungen zurückblicken; darunter ADC Deutschland, ADC Europe, Society of Newspaper Design, European Newspaper Award, German Design Award und Lead Awards. Kein Grund sich darauf auszuruhen, sondern Ansporn für neue Herausforderungen.
