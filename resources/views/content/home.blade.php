@@ -2,8 +2,8 @@
 
 @section('content')
     <img
-        class="lazyload img-fluid min-w-100"
-        data-src="{{ mix('images/home.svg') }}"
+        class="img-fluid min-w-100"
+        src="{{ mix('images/home.svg') }}"
         alt="Studio Polster Logo und Dienstleistungen (Naming, Logoentwicklung, Markenentwicklung, Digitale Marke, Corporate Design, Editorial Design, Web Design, Art Direction)"
     />
 
