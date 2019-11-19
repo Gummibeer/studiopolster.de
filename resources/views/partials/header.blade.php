@@ -6,6 +6,7 @@
             </a>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-main-menu">
                 <span class="navbar-toggler-icon"></span>
+                <span class="sr-only">Menü</span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbar-main-menu">
