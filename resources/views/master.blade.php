@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="dns-prefetch" href="https://use.typekit.net">
+    <link rel="dns-prefetch" href="https://images.weserv.nl">
+
     <title>@yield('title', config('app.name'))</title>
     <meta name="description" content="Wir sind ein kleines leistungsstarkes Designstudio in Aumühle, Hamburg. Wir bieten: Grafikdesign, Corporate Design, Editorial Design, Webdesign, Illustration, Infografik, Fotografie, Naming, Logo-Entwicklung, Kommunikation im Raum und digitale Markenentwicklung." />
 
