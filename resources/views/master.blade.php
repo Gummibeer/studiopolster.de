@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>@yield('title', config('app.name'))</title>
+    <meta name="description" content="Wir sind ein kleines leistungsstarkes Designstudio in Aumühle, Hamburg. Wir bieten: Grafikdesign, Corporate Design, Editorial Design, Webdesign, Illustration, Infografik, Fotografie, Naming, Logo-Entwicklung, Kommunikation im Raum und digitale Markenentwicklung." />
 
     <link rel="stylesheet" href="https://use.typekit.net/sdo1rnk.css">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
