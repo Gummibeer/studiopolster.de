@@ -62,7 +62,3 @@ mix
 glob.sync(path.resolve(__dirname, 'resources', 'assets', 'img', 'work') + '/*.jpg').forEach(jpg => {
     mix.copy(jpg, 'public/images/work/' + path.basename(jpg));
 });
-
-glob.sync(path.resolve(__dirname, 'resources', 'assets', 'downloads') + '/*.pdf').forEach(pdf => {
-    mix.copy(pdf, 'public/downloads/' + path.basename(pdf));
-});

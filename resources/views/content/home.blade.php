@@ -25,10 +25,6 @@
                                 <div class="overlay">
                                     <strong class="headline">{{ $work['headline'] }}</strong>
                                     <p class="description">{!! nl2br($work['description']) !!}</p>
-                                    <a href="{{ mix($work['pdf']) }}" target="_blank" class="download position-relative" download>
-                                        <i class="icon-pdf"></i>
-                                        Arbeitsprobe
-                                    </a>
                                 </div>
                             </div>
                         </div>
